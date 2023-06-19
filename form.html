@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h4>Registration Form</h4>
+    <form action="/action.php">
+        <input type="text" placeholder="username">
+        <br><br>
+        <input type="password" placeholder="password">
+        
+        <h5>Select Your Class</h5>
+        <label for="1">
+            <input type="radio" value="class X" name="class" id="1">class X
+        </label>
+        <br><br>
+        <label for="2">
+            <input type="radio" value="class XI" name="class" id="2">class XI
+        </label>
+
+        <h5>Select Fav Subjects</h5>
+        <label for="math">
+            <input type="checkbox" value="math" name="Subject" id="1">math
+        </label>
+        <br><br>
+        <label for="science">
+            <input type="checkbox" value="science" name="Subject" id="2">science
+        </label>
+
+        <br>
+        <h5>Select Your City</h5>
+        <select name="city" id="city">
+            <option value="Bhuj">Bhuj</option>
+            <option value="Ahmadabad">Ahmadabad</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Banglore">Banglore</option>
+            <option value="Pune">Pune</option>
+            <option value="Jaipur">Jaipur</option>
+        </select>
+
+        <br><br>
+        <textarea name="feedback" id="1" placeholder="please give your feedback here" cols="21.5" rows="5">Feedback</textarea>
+    
+        <br>
+        <input type="submit" value="submit">
+    </form>
+</body>
+</html>

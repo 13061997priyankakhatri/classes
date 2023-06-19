@@ -1,0 +1,30 @@
+#h1{
+    font-weight: 100;
+    color: orchid;
+}
+#h2{
+    font-weight: 250;
+    color: orchid;
+}
+#h3{
+    font-weight: 450;
+    color: orchid;
+}
+#h4{
+    font-weight: 900;
+    color: orchid;
+}
+p{
+    text-align: center;
+}
+#one{
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 50px;
+}
+#two{
+    font-family:monospace;
+    font-size: 70px;
+}
+#three{
+    font-size: 80px;
+}
